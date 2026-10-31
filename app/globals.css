@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-obsidian: #08080A;
+  --surface-card: #121216;
+  --gold-brushed: #D4AF37;
+  --amber-saffron: #E5A93C;
+  --burgundy-coat: #4A1521;
+}
+
+body {
+  background-color: #08080A;
+  color: #F5F5F7;
+  overflow-x: hidden;
+}
+
+/* Custom Luxury Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #08080A;
+}
+::-webkit-scrollbar-thumb {
+  background: #23232A;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37;
+}
